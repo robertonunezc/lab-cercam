@@ -1,0 +1,530 @@
+:root {
+    --primary-color: #23589e;
+    --secondary-color: #7eba43;
+    --secondary-light: #aad379;
+    --primary-text: black;
+    --secondary-text: #606060;
+    --alternative-background: #f5f5f5;
+    --secondary-background: #ececec;
+    --base-color: white;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url('/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "MonserratBold";
+    src: url('/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "MonserratMed";
+    src: url('/fonts/Montserrat-Medium.ttf');
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    border-bottom: solid 8px var(--primary-color);
+    height: 120px;
+    width: 100%;
+    background-color: var(--base-color);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu-container,
+.logo-header {
+    flex: 1 1 50%
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu-item {
+    border-right: solid 1px var(--secondary-text);
+
+}
+
+.header-menu-link {
+    padding: 1rem;
+    color: var(--secondary-text);
+    font-family: "Monserrat";
+    font-weight: bold;
+}
+
+.header-menu-link:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+#slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/CERCAM_Inicio.jpg');
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-top: 120px;
+    font-family: "Monserrat";
+}
+
+.box-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2rem 0;
+}
+
+.slider-box-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    width: 50%;
+    opacity: 1;
+}
+
+.escuadra-izda {
+    display: flex;
+    align-items: end;
+}
+
+.escuadra-dcha {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.slider-box-info--text {
+    padding: 2rem;
+}
+
+.slider-box-info--text__color {
+    color: white
+}
+
+.btn {
+    padding: 1.2rem 1.7rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#como-funciona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5rem 0;
+    font-family: "Monserrat";
+}
+
+.funciona-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.funciona-pasos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6rem 3rem;
+
+}
+
+.item-paso-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-text);
+}
+
+.item-paso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 18%;
+    text-align: center;
+}
+
+.escuadra-grande {
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.title {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-family: "MonserratBold";
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+#diagnostico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/CERCAM_Diagnosticomolecular.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: "Monserrat";
+    padding: 4rem 0;
+
+}
+
+.diagnostico-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6rem 3rem;
+
+}
+
+.diagnostico-box,
+.contacto-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    width: 86%;
+
+}
+
+.diagnostico-info-desc {
+    flex: 0 1 50%;
+    font-size: 1.5rem;
+    color: var(--secondary-text);
+}
+
+.diagnostico-info-horario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    height: 14rem;
+    border-radius: 50rem;
+    flex: 0 1 15%;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+#metodo,
+#preguntas,
+#contacto {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-background);
+    font-family: "Monserrat";
+    padding: 8rem 0;
+    width: 100%;
+}
+
+#preguntas {
+    background-color: var(--alternative-background);
+
+}
+
+.metodo-box,
+.preguntas-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    width: 86%;
+}
+
+.metodo-box {
+    padding-bottom: 6rem;
+}
+
+.metodo-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--secondary-text);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+
+}
+
+.metodo-desc1,
+.metodo-desc2 {
+    line-height: 2rem;
+
+}
+
+.seprador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.sep-left,
+.sep-rigth {
+    flex: 0 1 45%;
+    height: 2px;
+    background-color: var(--secondary-background);
+}
+
+.sep-center {
+    flex: 0 1 10%;
+    height: 4px;
+    background-color: var(--secondary-color);
+}
+
+.preguntas-drop {
+    width: 84%;
+    margin: 5rem auto;
+}
+
+.pregunta-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pregunta-titulo-texto {
+    font-family: "MonserratBold";
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.pregunta-texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-text);
+}
+
+.contacto-box {
+    padding: 0;
+}
+
+.contacto-info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.contacto-form,
+.contacto-logo {
+    flex: 0 1 50%;
+
+}
+
+.contacto-logo {
+    flex: 0 1 30%;
+
+}
+
+.contacto-form>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-form>form * {
+    margin: 0.5rem;
+}
+
+.contacto-input {
+    height: 50px;
+    border: none;
+    color: var(--secondary-text);
+    border-radius: 10px;
+    font-family: "MonserratMed";
+    background-color: var(--secondary-background);
+    padding-left: 1rem;
+}
+
+#mensaje {
+    min-height: 10rem;
+    padding-top: 1rem;
+}
+
+.btn-enviar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-enviar>.btn {
+    width: 35%;
+
+}
+
+.contacto-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.whats-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.whats-info>a {
+    color: var(--secondary-text)
+}
+
+footer {
+    background-color: var(--primary-color);
+    min-height: 10rem;
+    color: var(--base-color);
+    width: 100%;
+    font-family: "Monserrat";
+}
+
+.footer-box {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 0;
+}
+
+.footer-box>div {
+    flex: 1 1 30%;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer-menu>li {
+    margin: 0.5rem 0;
+}
+
+.contacto>div,
+.redes>a {
+    margin: 1rem 0
+}
+
+.toggle-pregunta:hover {
+    cursor: pointer;
+}
+
+/**** UTILS ***/
+.d-none {
+    display: none;
+}
+
+.text-blanco {
+    color: var(--base-color);
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.text-gris {
+    color: var(--secondary-text)
+}
+
+.text-azul {
+    color: var(--primary-color);
+    font-family: "MonserratMed";
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-background);
+}
+
+.bg-primary {
+    background-color: var(--base-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.fs-3 {
+    font-size: 3rem;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.fs-2-5 {
+    font-size: 2.5rem;
+}
+
+.plr-24 {
+    padding: 0 24rem;
+
+}
+
+.ml-8 {
+    margin-left: 8rem;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
