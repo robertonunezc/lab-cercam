@@ -1,0 +1,94 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+     .header {
+         display: none;
+     }
+
+     #slider {
+         height: 85vh;
+     }
+
+     .slider-box-info {
+         width: 100%;
+     }
+
+     .diagnostico-info-desc {
+         flex: 1 1 80%
+     }
+
+     .diagnostico-box a {
+         margin: 0 auto;
+     }
+
+     .btn-box {
+         display: flex;
+     }
+
+     .metodo-info {
+         width: 85%;
+     }
+
+     .diagnostico-info,
+     .metodo-info {
+         padding: 2rem;
+     }
+
+     .diagnostico-info-horario {
+         height: 8rem;
+     }
+
+     .diagnostico-info-horario>p {
+         font-size: 1.5rem;
+     }
+
+     .diagnostico-box h1,
+     .metodo-box h1,
+     .preguntas-box h1,
+     .contacto-box h1 {
+         padding: 0;
+         margin: 0;
+     }
+
+     .contacto-info {
+         flex-direction: column;
+     }
+
+     .contacto-logo>img {
+         width: 100%;
+     }
+
+     .btn-enviar {
+         justify-content: center;
+     }
+
+     .btn-enviar>.btn {
+         width: 100%;
+     }
+
+     .footer-box {
+         flex-direction: row;
+         justify-content: center;
+         /* align-items: center; */
+         flex-wrap: wrap;
+     }
+
+     .footer-box>div {
+         margin: 10px;
+     }
+
+     .menu {
+         flex: 0 1 30%;
+     }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {}

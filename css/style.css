@@ -24,9 +24,13 @@
     src: url('/fonts/Montserrat-Medium.ttf');
 }
 
+main {
+    width: 100%;
+}
+
 .container {
-    width: 1600px;
-    margin: 0 auto;
+    display: block;
+    width: 100%;
 }
 
 header {
