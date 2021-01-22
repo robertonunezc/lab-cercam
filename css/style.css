@@ -33,6 +33,54 @@ main {
     width: 100%;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Monserrat";
+
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+    flex: 1 1 100%;
+    background-color: var(--primary-color);
+    font-family: "Monserrat";
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: var(--primary-color);
+    display: block;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: white;
+    color: var(--primary-color);
+}
+
 header {
     position: fixed;
     border-bottom: solid 8px var(--primary-color);
@@ -225,7 +273,7 @@ header {
 
 .diagnostico-info-desc {
     flex: 0 1 50%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--secondary-text);
 }
 

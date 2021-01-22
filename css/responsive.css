@@ -4,8 +4,17 @@
          display: none;
      }
 
+     header {
+         height: 70px;
+     }
+
+     .topnav {
+         display: flex;
+     }
+
      #slider {
          height: 85vh;
+         margin-top: 75px;
      }
 
      .slider-box-info {
@@ -63,6 +72,10 @@
 
      .btn-enviar>.btn {
          width: 100%;
+     }
+
+     .escuadra-grande {
+         margin-left: 7rem;
      }
 
      .footer-box {
