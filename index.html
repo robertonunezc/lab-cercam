@@ -64,7 +64,7 @@
             <div class="box-light">
                 <div class="slider-box-info">
                     <div class="escuadra-izda">
-                        <img loading="lazy" src="images/CERCAM_Icono_2verde.png" alt="" width="50">
+                        <img loading="lazy" src="images/CERCAM_Icono_2verde.png" alt="" width="100">
                     </div>
                     <div class="slider-box-info--text">
                         <h1 class="slider-box-info--text__color fs-2">
@@ -73,7 +73,7 @@
                     </div>
 
                     <div class="escuadra-dcha">
-                        <img loading="lazy" src="images/CERCAM_Icono_3verde.png" alt="" width="50">
+                        <img loading="lazy" src="images/CERCAM_Icono_3verde.png" alt="" width="100">
 
                     </div>
                 </div>
@@ -81,7 +81,7 @@
             </div>
         </section>
         <section id="como-funciona" class="bg-secondary">
-            <div class="funciona-box bg-primary container">
+            <div class="funciona-box bg-primary">
                 <div class="escuadra-grande">
                     <img loading="lazy" src="images/CERCAM_Iconoverde.png" alt="ESCUADRA" srcset="" width="120">
                 </div>
@@ -332,13 +332,15 @@
                 <div class="contacto-info">
                     <div class="contacto-form">
                         <form action="">
-                            <input type="text" class="contacto-input" placeholder="Nombre*">
-                            <input type="text" placeholder="Apellido*" class="contacto-input">
-                            <input type="email" placeholder="Correo electrónio*" class="contacto-input">
-                            <input type="text" placeholder="Teléfono de contacto*" class="contacto-input">
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="80" placeholder="Mensaje*"
+                            <input type="text" id="name-contact" class="contacto-input" placeholder="Nombre*">
+                            <input type="text" id="apellido-contact" placeholder="Apellido*" class="contacto-input">
+                            <input type="email" id="email-contact" placeholder="Correo electrónio*"
+                                class="contacto-input">
+                            <input type="text" id="phone-contact" placeholder="Teléfono de contacto*"
+                                class="contacto-input">
+                            <textarea id="message-contact" id="mensaje" cols="30" rows="80" placeholder="Mensaje*"
                                 class="contacto-input"></textarea>
-                            <div class="btn-enviar">
+                            <div id="btn-send" class="btn-enviar ">
                                 <button class="btn">Enviar</button>
                             </div>
                         </form>
@@ -360,7 +362,7 @@
         </section>
     </main>
     <footer id="footer">
-        <div class="container footer-box">
+        <div class="footer-box">
             <div class="menu">
                 <h3>Inicio</h3>
                 <ul class="footer-menu">
@@ -397,6 +399,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <script>
         const togglePregunta = document.querySelectorAll('.toggle-pregunta');
         for (const pregunta of togglePregunta) {
@@ -415,6 +419,31 @@
                 x.style.display = "block";
             }
         }
+        const btnSend = document.getElementById('btn-send');
+        btnSend.addEventListener('click', function (event) {
+            event.preventDefault();
+            const name = document.getElementById('name-contact').value;
+            const lastName = document.getElementById('name-contact').value;
+            const email = document.getElementById('email-contact').value;
+            const phone = document.getElementById('message-contact').value;
+            const message = document.getElementById('message-contact').value;
+
+            const data = {
+                from: 'soporte@puntoreica.com',
+                to: 'rcorralesn@gmail.com',
+                subject: "Contacto desde la web",
+                message: `Name: ${name} ${lastName}, ${phone} , ${email}, ${message}`
+            }
+            axios.post('http://email.puntoreica.com/email/send/', data)
+                .then(result => {
+                    if (result.status == 200) {
+                        alert('Mensaje enviado');
+                        return;
+                    }
+                    alert('Mensaje no enviado. Intente más tarde');
+                })
+                .catch(err => alert(err));
+        })
 
     </script>
 </body>
