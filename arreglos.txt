@@ -1,0 +1,40 @@
+- En la primera frase "Toma de muestra PCR a domicilio
+entregando resultados en 24-36 hrs" el tamaño de letra lo veo muy grande y hay un espacio o un enter despues de domicilio y antes de entregando. 
+- 24-36 hrs y la palabra domicilio que vaya más negrita ---OK
+- El texto que vaya centrado---OK
+- El rectangulo azul que sea menos ancho ---ok, se redujo del 50% al 45% de ancho
+- Los rectangulos verdes no se si fue por la imagen que te mandé pero se ven como ligeramente inclinados, no al margen del rectángulo azul
+
+- Si se pudiera hacer el menú ligeramente más delgado quedaría super bien ---ya tenia 120px de alto , se redujo a 100
+
+- ¿Cómo funciona? (la letra un poco más chica al igual que los demás títulos)---OK todos se redujeron de 48px a 36px 
+- Los titulos de los números que vayan más negrita 
+    Como del tamaño y grosor de las preguntas frecuentes---OK
+- cada bloque con imagen y texto no están alineados ---OK
+- Más separación entre textos de cada bloque ---ok
+- La letra gris va con tipografía Helvética neue
+
+Diagnóstico .... 
+- que vaya en máximo 2 líneas (ehoriat está separado como por palabra, como si entre cada una hubiera un enter)
+- las letras grises van con la tipografía Helvética neue--- FATLTA FUENTE
+- El botón agenda tu cita alinearlo a la izquierda con el texto ---OK
+- El círculo de la derecha no se si convenga que te lo mande como imagen para que no se distorcione
+- La misma separación de la figura verde hacia arriba y la figura verde hacia el título
+
+Método
+- Más separación entre el final del párrafo y la línea gris con verde --- OK.. se le dio el doble 
+- la misma separación de la línea al principio del párrafo. OK se le dio el doble
+- Texto gris en Helvética neue..... Falta tipografía 
+
+Preguntas frecuentes 
+- al abrir la pregunta la flecha de la derecha que se gire hacia arriba 
+- Una vez abierto poner más espacio entre la respuesta y la línea de abajo (un intermedio de espacio del que hay entre a pregunta y la respuesta y la respuesta y la línea) --- OK se le dio el doble de espacio
+
+Contáctanos
+- El logo mucho más chico --- OK , se redujo a la mitad
+- El ancho del botón enviar del mismo alto de los demás --ok
+- Más separación arriba de la palabra mensaje ---ok
+- un espacio después del icóno de whatsapp --ok
+- El tamaño del texto de las preguntas es más chico que el del tamaño del texto de métodos
+
+Los iconos de facebook e instagram un poco más chicos y con un poco más de separación (muy poca)..OK.. tenian 35 px se redujo a 25 

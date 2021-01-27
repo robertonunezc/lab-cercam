@@ -84,7 +84,7 @@ main {
 header {
     position: fixed;
     border-bottom: solid 8px var(--primary-color);
-    height: 120px;
+    height: 100px;
     width: 100%;
     background-color: var(--base-color);
     display: flex;
@@ -138,7 +138,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    margin-top: 120px;
+    margin-top: 100px;
     font-family: "Monserrat";
 }
 
@@ -158,7 +158,7 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     background-color: var(--primary-color);
-    width: 50%;
+    width: 45%;
     opacity: 1;
 }
 
@@ -219,8 +219,9 @@ header {
 }
 
 .item-paso-desc {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Helvetica Neue";
     color: var(--secondary-text);
+    width: 50%;
 }
 
 .item-paso {
@@ -239,12 +240,13 @@ header {
 
 .title {
     color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-family: "MonserratBold";
     font-weight: bolder;
     text-align: center;
     margin: 0;
 }
+
 
 #diagnostico {
     display: flex;
@@ -351,7 +353,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .sep-left,
@@ -378,7 +380,8 @@ header {
     align-items: center;
 }
 
-.pregunta-titulo-texto {
+.pregunta-titulo-texto,
+.item-paso .text-primary {
     font-family: "MonserratBold";
     color: var(--primary-color);
     font-size: 1.2rem;
@@ -414,6 +417,7 @@ header {
 .contacto-form>form {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 .contacto-form>form * {
@@ -428,6 +432,17 @@ header {
     font-family: "MonserratMed";
     background-color: var(--secondary-background);
     padding-left: 1rem;
+    width: 100%;
+}
+
+textarea {
+    padding-top: 1rem;
+
+}
+
+.btn-contacto-enviar {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 #mensaje {
@@ -495,9 +510,12 @@ footer {
     margin: 0.5rem 0;
 }
 
-.contacto>div,
-.redes>a {
+.contacto>div {
     margin: 1rem 0
+}
+
+.redes>a {
+    margin: 1rem 0.4rem
 }
 
 .toggle-pregunta:hover {
