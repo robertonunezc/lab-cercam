@@ -393,6 +393,14 @@ header {
     color: var(--secondary-text);
 }
 
+.rotar-flecha-up {
+    transform: rotateZ(180deg)
+}
+
+.rotar-flecha-down {
+    transform: rotateZ(180deg)
+}
+
 .contacto-box {
     padding: 0;
 }
@@ -442,8 +450,8 @@ textarea {
 }
 
 .btn-contacto-enviar {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 #mensaje {

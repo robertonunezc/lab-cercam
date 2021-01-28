@@ -334,7 +334,7 @@
                         <form action="">
                             <input type="text" id="name-contact" class="contacto-input" placeholder="Nombre*">
                             <input type="text" id="apellido-contact" placeholder="Apellido*" class="contacto-input">
-                            <input type="email" id="email-contact" placeholder="Correo electrónio*"
+                            <input type="email" id="email-contact" placeholder="Correo electrónico*"
                                 class="contacto-input">
                             <input type="text" id="phone-contact" placeholder="Teléfono de contacto*"
                                 class="contacto-input">
@@ -406,7 +406,14 @@
                 const preguntaContainer = event.target.dataset.preg;
                 console.log(preguntaContainer)
                 const preguntaTexto = document.querySelector(`#${preguntaContainer}`)
+                if (preguntaTexto.classList.contains('d-none')) {
+                    pregunta.classList.toggle('rotar-flecha-up')
+                } else {
+                    pregunta.classList.toggle('rotar-flecha-down')
+
+                }
                 preguntaTexto.classList.toggle('d-none')
+
             })
         }
         function myFunction() {
