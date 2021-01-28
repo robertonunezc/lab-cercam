@@ -398,7 +398,7 @@ header {
 }
 
 .rotar-flecha-down {
-    transform: rotateZ(180deg)
+    transform: rotateZ(0deg)
 }
 
 .contacto-box {

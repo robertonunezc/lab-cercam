@@ -406,12 +406,7 @@
                 const preguntaContainer = event.target.dataset.preg;
                 console.log(preguntaContainer)
                 const preguntaTexto = document.querySelector(`#${preguntaContainer}`)
-                if (preguntaTexto.classList.contains('d-none')) {
-                    pregunta.classList.toggle('rotar-flecha-up')
-                } else {
-                    pregunta.classList.toggle('rotar-flecha-down')
-
-                }
+                pregunta.classList.toggle('rotar-flecha-up')
                 preguntaTexto.classList.toggle('d-none')
 
             })
