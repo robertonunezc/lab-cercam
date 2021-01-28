@@ -55,8 +55,9 @@
          flex: 1 1 80%
      }
 
-     .diagnostico-box a {
-         margin: 0 auto;
+     .diagnostico-box a,
+     .diagnostico-info-hora {
+         margin: 2rem auto;
      }
 
      .btn-box {
@@ -64,12 +65,18 @@
      }
 
      .metodo-info {
-         width: 85%;
+         width: 70%;
      }
 
      .diagnostico-info,
      .metodo-info {
          padding: 2rem;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .diagnostico-info {
+         margin: 1rem auto;
      }
 
      .diagnostico-info-horario {
@@ -84,17 +91,19 @@
      .metodo-box h1,
      .preguntas-box h1,
      .contacto-box h1 {
+         margin: 1.5rem auto;
          padding: 0;
-         margin: 0;
+         width: 60%;
+         text-align: center;
      }
 
      .contacto-info {
          flex-direction: column;
      }
 
-     .contacto-logo>img {
+     /* .contacto-logo>img {
          width: 100%;
-     }
+     } */
 
      .btn-enviar {
          justify-content: center;
@@ -124,6 +133,15 @@
      }
  }
 
+ @media only screen and (max-width: 1440px) {
+     .title {
+         margin: 0 auto;
+         padding: 0;
+         width: 60%;
+         text-align: center;
+     }
+ }
+
  /* Extra large devices (large laptops and desktops, 1200px and up) */
  @media only screen and (min-width: 1200px) {
 
@@ -134,6 +152,7 @@
      .logo-header {
          flex: 0 1 30%;
      }
+
      .escuadra-dcha {
          align-self: start;
      }

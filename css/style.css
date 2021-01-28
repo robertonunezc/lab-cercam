@@ -15,6 +15,11 @@
 }
 
 @font-face {
+    font-family: "HelveticaNeue";
+    src: url('/fonts/HelveticaNeue-Regular.ttf');
+}
+
+@font-face {
     font-family: "MonserratBold";
     src: url('/fonts/Montserrat-Bold.ttf');
 }
@@ -214,14 +219,16 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 6rem 3rem;
-
+    margin: 3rem auto;
+    width: 77%;
 }
 
 .item-paso-desc {
-    font-family: "Helvetica Neue";
+    font-family: "HelveticaNeue";
     color: var(--secondary-text);
-    width: 50%;
+    width: 70%;
+    max-height: 52px;
+
 }
 
 .item-paso {
@@ -229,8 +236,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 0 1 18%;
+    flex: 0 1 20%;
     text-align: center;
+    max-height: 350px;
+    margin-bottom: 1.5rem;
+
 }
 
 .escuadra-grande {
@@ -244,7 +254,10 @@ header {
     font-family: "MonserratBold";
     font-weight: bolder;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+    text-align: center;
 }
 
 
@@ -265,11 +278,11 @@ header {
 
 .diagnostico-info {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
     flex-wrap: wrap;
-    padding: 6rem 3rem;
-
+    width: 70%;
+    margin: 3rem auto;
 }
 
 .diagnostico-box,
@@ -282,25 +295,13 @@ header {
 }
 
 .diagnostico-info-desc {
-    flex: 0 1 50%;
+    flex: 0 1 65%;
     font-size: 1.3rem;
     color: var(--secondary-text);
 }
 
-.diagnostico-info-horario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--primary-color);
-    height: 14rem;
-    border-radius: 50rem;
-    flex: 0 1 15%;
-    color: white;
-    text-align: center;
-    padding: 5rem;
-    font-weight: bolder;
-    font-size: 1.3rem;
+.diagnostico-info-hora {
+    flex: 0 1 30%;
 }
 
 #metodo,
@@ -370,8 +371,8 @@ header {
 }
 
 .preguntas-drop {
-    width: 84%;
-    margin: 5rem auto;
+    width: 70%;
+    margin: 3rem auto;
 }
 
 .pregunta-titulo {
@@ -388,7 +389,7 @@ header {
 }
 
 .pregunta-texto {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeue";
     color: var(--secondary-text);
 }
 
@@ -399,8 +400,8 @@ header {
 .contacto-info {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: 5rem auto;
+    width: 70%;
+    margin: 3rem auto;
 }
 
 .contacto-form,
@@ -579,6 +580,10 @@ a:visited {
 
 .mt-2 {
     margin-top: 2rem;
+}
+
+.mt-0 {
+    margin-top: 0;
 }
 
 .mt-1 {
