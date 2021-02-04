@@ -62,7 +62,7 @@ main {
 /* Style navigation menu links */
 .topnav a {
     color: white;
-    padding: 14px 16px;
+    padding: 14px 25px;
     text-decoration: none;
     font-size: 17px;
     display: block;
@@ -70,7 +70,7 @@ main {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-    background: var(--primary-color);
+    /* background: var(--primary-color); */
     display: block;
 }
 
@@ -134,17 +134,24 @@ header {
 
 #slider {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    background-image: url('/images/CERCAM_Inicio.jpg');
+    background-image: url('/images/CERCAMportada_Inicio.jpg');
     width: 100%;
-    padding: 3rem 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 7.5%;
+    min-height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     margin-top: 100px;
     font-family: "Monserrat";
+}
+
+.slider-text__big {
+    font-size: 50px;
+    color: var(--secondary-text);
 }
 
 .box-light {
@@ -220,7 +227,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin: 3rem auto;
-    width: 77%;
+    width: 90%;
 }
 
 .item-paso-desc {
@@ -234,11 +241,11 @@ header {
 .item-paso {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex: 0 1 20%;
     text-align: center;
-    max-height: 350px;
+    height: 350px;
     margin-bottom: 1.5rem;
 
 }

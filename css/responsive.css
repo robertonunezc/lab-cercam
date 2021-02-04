@@ -11,6 +11,19 @@
          height: 50vh;
          margin-top: 75px;
      }
+
+     .contacto-input {
+         width: 90%;
+     }
+
+     .slider-text__big {
+         font-size: 36px;
+     }
+
+     .item-paso {
+         flex: 1 1 20%;
+
+     }
  }
 
  /* Medium devices (landscape tablets, 768px and up) */
