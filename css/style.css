@@ -15,11 +15,6 @@
 }
 
 @font-face {
-    font-family: "HelveticaNeue";
-    src: url('/fonts/HelveticaNeue-Regular.ttf');
-}
-
-@font-face {
     font-family: "MonserratBold";
     src: url('/fonts/Montserrat-Bold.ttf');
 }
@@ -220,7 +215,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 5rem 0;
+    padding: 4rem 0;
     font-family: "Monserrat";
 }
 
@@ -237,11 +232,11 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin: 3rem auto;
-    width: 90%;
+    width: 80%;
 }
 
 .item-paso-desc {
-    font-family: "HelveticaNeue";
+    font-family: Verdana, sans-serif;
     color: var(--secondary-text);
     width: 70%;
     max-height: 52px;
@@ -258,6 +253,10 @@ header {
     height: 350px;
     margin-bottom: 1.5rem;
 
+}
+
+.item-paso p {
+    margin-top: 0;
 }
 
 .escuadra-grande {
@@ -328,7 +327,7 @@ header {
     justify-content: center;
     background-color: var(--secondary-background);
     font-family: "Monserrat";
-    padding: 8rem 0;
+    padding: 4rem 0;
     width: 100%;
 }
 
@@ -406,7 +405,7 @@ header {
 }
 
 .pregunta-texto {
-    font-family: "HelveticaNeue";
+    font-family: Verdana, sans-serif;
     color: var(--secondary-text);
 }
 
@@ -557,6 +556,10 @@ footer {
     color: var(--base-color);
 }
 
+.text-blue {
+    color: var(--primary-color);
+}
+
 .m-0 {
     margin: 0;
 }
@@ -592,6 +595,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.mt-0 {
+    margin-top: 0;
 }
 
 li {
