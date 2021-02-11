@@ -66,6 +66,10 @@
      .contacto-info {
          margin-top: 1.5rem;
      }
+
+     .btn-contacto-enviar {
+         padding: 1rem 1.5rem;
+     }
  }
 
  /* Medium devices (landscape tablets, 768px and up) */
