@@ -257,7 +257,7 @@ header {
     align-items: center;
     flex: 0 1 20%;
     text-align: center;
-    height: 350px;
+    min-height: 330px;
     margin-bottom: 1.5rem;
 
 }

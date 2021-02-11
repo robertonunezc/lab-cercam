@@ -18,6 +18,7 @@
 
      .item-paso-desc {
          min-height: 50px;
+         width: 95%;
      }
 
      .contacto-input {
@@ -30,7 +31,7 @@
 
      .item-paso {
          flex: 0 1 30%;
-         min-height: 300px;
+         margin-bottom: 0;
      }
 
      .diagnostico-info-desc {
