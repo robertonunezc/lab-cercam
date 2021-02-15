@@ -670,6 +670,10 @@ a:visited {
     margin: 2rem;
 }
 
+.p-2 {
+    padding: 2rem;
+}
+
 .fs-3 {
     font-size: 3rem;
 }
