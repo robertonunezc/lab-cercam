@@ -331,6 +331,10 @@ header {
     font-family: Verdana, sans-serif;
 }
 
+#metodo-cel {
+    display: none;
+}
+
 #metodo,
 #preguntas,
 #contacto {
@@ -361,14 +365,39 @@ header {
 
 .metodo-info {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    justify-content: space-around;
+    width: 70%;
     margin: 0 auto;
-    text-align: center;
     color: var(--secondary-text);
     font-size: 1.3rem;
     margin-top: 2rem;
+    min-height: 65vh;
+}
 
+.images-metodo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.col-lf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.col-rg {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.text-box {
+    background-color: var(--secondary-background);
+    padding: 2rem;
 }
 
 .metodo-desc1,
@@ -575,6 +604,10 @@ footer {
     margin: 0;
 }
 
+.mb-20 {
+    margin-bottom: 20rem;
+}
+
 .text-gris {
     color: var(--secondary-text)
 }
@@ -631,6 +664,10 @@ a:visited {
 
 .mt-1 {
     margin-top: 1rem;
+}
+
+.m-2 {
+    margin: 2rem;
 }
 
 .fs-3 {

@@ -16,6 +16,15 @@
          margin-top: 75px;
      }
 
+     #metodo {
+         display: none;
+     }
+
+     #metodo-cel {
+         display: flex;
+         justify-content: center;
+     }
+
      .item-paso-desc {
          min-height: 50px;
          width: 95%;
