@@ -393,7 +393,7 @@
                                 class="contacto-input">
                             <textarea id="message-contact" id="mensaje" cols="30" rows="80" placeholder="Mensaje*"
                                 class="contacto-input" style="   height: 200px;"></textarea>
-                            <button class="btn btn-contacto-enviar ">Enviar</button>
+                            <button class="btn btn-contacto-enviar " id="btn-contacto-enviar">Enviar</button>
                         </form>
                     </div>
                     <div class="contacto-logo">
@@ -472,7 +472,7 @@
                 x.style.display = "block";
             }
         }
-        const btnSend = document.getElementById('btn-send');
+        const btnSend = document.getElementById('btn-contacto-enviar');
         btnSend.addEventListener('click', function (event) {
             event.preventDefault();
             const name = document.getElementById('name-contact').value;
