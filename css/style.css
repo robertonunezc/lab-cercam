@@ -153,16 +153,21 @@ header {
 
 .slider-text {
     width: 100%;
+    /* width: 86%; */
 }
 
 .slider-text__big {
     font-size: 2.3rem;
     color: var(--secondary-text);
     margin-left: 9%;
+    /* margin-left: 15%; */
+
 }
 
 .btn-contacto-header {
     margin-left: 9%;
+    /* margin-left: 20%; */
+
 
 }
 
@@ -239,13 +244,14 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin: 3rem auto;
-    width: 80%;
+    width: 70%;
 }
 
 .item-paso-desc {
     font-family: Verdana, sans-serif;
     color: var(--secondary-text);
     width: 70%;
+    font-size: 14px;
     max-height: 52px;
 
 }
@@ -289,7 +295,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
     background-image: url('/images/CERCAM_Diagnosticomolecular.jpg');
     width: 100%;
     background-repeat: no-repeat;
@@ -360,7 +365,7 @@ header {
 }
 
 .metodo-box {
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 .metodo-info {
@@ -369,7 +374,6 @@ header {
     width: 70%;
     margin: 0 auto;
     color: var(--secondary-text);
-    font-size: 1.3rem;
     margin-top: 2rem;
     min-height: 65vh;
 }
@@ -497,7 +501,7 @@ header {
     font-family: "MonserratMed";
     background-color: var(--secondary-background);
     padding-left: 1rem;
-    width: 100%;
+    width: 96%;
 }
 
 textarea {
@@ -607,6 +611,11 @@ footer {
 .mb-20 {
     margin-bottom: 20rem;
 }
+
+.mb-15 {
+    margin-bottom: 15em;
+}
+
 
 .text-gris {
     color: var(--secondary-text)

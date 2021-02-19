@@ -20,6 +20,10 @@
          display: none;
      }
 
+     .escuadra-grande>img {
+         width: 80px;
+     }
+
      #metodo-cel {
          display: flex;
          justify-content: center;
