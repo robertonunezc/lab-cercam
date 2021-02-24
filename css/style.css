@@ -340,7 +340,13 @@ header {
     display: none;
 }
 
+.metodo-info-desc {
+    background-color: var(--secondary-background);
+    padding: 1rem;
+}
+
 #metodo,
+#metodo-new,
 #preguntas,
 #contacto {
     display: flex;
@@ -376,6 +382,56 @@ header {
     color: var(--secondary-text);
     margin-top: 2rem;
     min-height: 65vh;
+}
+
+.metodo-info-box {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    color: var(--secondary-text);
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Verdana, sans-serif;
+}
+
+.metodo-box1 {
+    flex: 1 1 100%;
+    margin-bottom: 2rem;
+}
+
+.metodo-box2 {
+    flex: 0 1 45%;
+    margin-bottom: 2rem;
+}
+
+.metodo-box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 48%;
+    margin-bottom: 2rem;
+}
+
+.box-blue {
+    background: var(--primary-color);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    width: 70%;
+    padding: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.text-desc {
+    flex: 0 1 45%;
+}
+
+.icons-desc {
+    flex: 0 1 55%;
 }
 
 .images-metodo {
@@ -658,6 +714,10 @@ li {
     list-style: none;
 }
 
+.d-flex {
+    display: flex;
+}
+
 a,
 a:visited {
     text-decoration: none;
@@ -698,6 +758,10 @@ a:visited {
 .plr-24 {
     padding: 0 24rem;
 
+}
+
+.mt-3 {
+    margin-top: 3rem;
 }
 
 .ml-8 {

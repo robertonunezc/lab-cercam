@@ -16,7 +16,8 @@
          margin-top: 75px;
      }
 
-     #metodo {
+     #metodo,
+     #metodo-new {
          display: none;
      }
 
