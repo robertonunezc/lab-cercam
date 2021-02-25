@@ -413,6 +413,10 @@ header {
     margin-bottom: 2rem;
 }
 
+#metodo-new .text-azul {
+    font-family: Verdana, sans-serif;
+}
+
 .box-blue {
     background: var(--primary-color);
     color: white;
