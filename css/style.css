@@ -370,6 +370,10 @@ header {
     width: 86%;
 }
 
+#metodo-new-mbl {
+    display: none;
+}
+
 .metodo-box {
     padding-bottom: 4rem;
 }

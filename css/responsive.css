@@ -25,7 +25,8 @@
          width: 80px;
      }
 
-     #metodo-cel {
+     #metodo-cel,
+     #metodo-new-mbl {
          display: flex;
          justify-content: center;
      }
@@ -41,6 +42,25 @@
 
      #metodo-cel .metodo-box {
          width: 100%;
+     }
+
+     #metodo-new-mbl .metodo-info-box {
+         width: 85%;
+     }
+
+     #metodo-new-mbl .metodo-box2,
+     #metodo-new-mbl .metodo-box1,
+     #metodo-new-mbl .metodo-box3 {
+         flex: 1 1 100%;
+     }
+
+     #metodo-new-mbl .box-blue {
+         width: 100%;
+         padding: 0.3rem;
+     }
+
+     #metodo-new-mbl .text-icons-container {
+         flex-direction: column;
      }
 
      .item-paso-desc {
