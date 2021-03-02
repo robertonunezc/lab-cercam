@@ -24,9 +24,15 @@
      .escuadra-grande>img {
          width: 80px;
      }
-
+     .item-mbl {
+         display: block;
+     }
+     .item-dsk {
+         display: none;
+     }
      #metodo-cel,
-     #metodo-new-mbl {
+     #metodo-new-mbl     
+      {
          display: flex;
          justify-content: center;
      }

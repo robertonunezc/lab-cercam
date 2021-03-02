@@ -370,7 +370,8 @@ header {
     width: 86%;
 }
 
-#metodo-new-mbl {
+#metodo-new-mbl,
+.item-mbl {
     display: none;
 }
 
