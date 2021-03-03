@@ -370,6 +370,10 @@ header {
     width: 86%;
 }
 
+#metodo-new p {
+    margin-left: 1rem;
+}
+
 #metodo-new-mbl,
 .item-mbl {
     display: none;
@@ -418,6 +422,11 @@ header {
     margin-bottom: 2rem;
 }
 
+.text-icons-container {
+    flex-direction: column;
+}
+
+
 #metodo-new .text-azul {
     font-family: Verdana, sans-serif;
 }
@@ -440,6 +449,8 @@ header {
 }
 
 .icons-desc {
+    display: flex;
+    justify-content: space-between;
     flex: 0 1 55%;
 }
 
