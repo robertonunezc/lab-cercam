@@ -341,7 +341,7 @@ header {
 }
 
 .metodo-info-desc {
-    background-color: var(--secondary-background);
+    background-color: var(--alternative-background);
     padding: 1rem;
 }
 
@@ -370,7 +370,8 @@ header {
     width: 86%;
 }
 
-#metodo-new p {
+#metodo-new p,
+#metodo-new-mbl p {
     margin-left: 1rem;
 }
 
@@ -439,7 +440,7 @@ header {
     display: flex;
     height: 15vh;
     width: 70%;
-    padding: 1.3rem;
+    padding: 2rem;
     font-style: italic;
     font-weight: bold;
 }

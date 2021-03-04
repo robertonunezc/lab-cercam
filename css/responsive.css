@@ -24,15 +24,17 @@
      .escuadra-grande>img {
          width: 80px;
      }
+
      .item-mbl {
          display: block;
      }
+
      .item-dsk {
          display: none;
      }
+
      #metodo-cel,
-     #metodo-new-mbl     
-      {
+     #metodo-new-mbl {
          display: flex;
          justify-content: center;
      }
@@ -62,7 +64,7 @@
 
      #metodo-new-mbl .box-blue {
          width: 100%;
-         padding: 0.3rem;
+         /* padding: 0.3rem; */
      }
 
      #metodo-new-mbl .text-icons-container {
