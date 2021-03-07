@@ -64,17 +64,26 @@
 
      #metodo-new-mbl .box-blue {
          width: 100%;
-         /* padding: 0.3rem; */
+         padding: 1rem;
      }
 
      #metodo-new-mbl .text-icons-container {
          flex-direction: column;
      }
 
+     .blue-light-box {
+         width: 70%;
+     }
+
      .item-paso-desc {
          min-height: 50px;
          width: 95%;
      }
+
+     #metodo-new-mbl .icons-desc {
+         flex-wrap: wrap;
+     }
+
 
      .contacto-input {
          width: 90%;
