@@ -448,9 +448,13 @@ header {
     display: flex;
     height: 15vh;
     width: 70%;
-    padding: 2rem;
+    padding: 1rem 1.5rem;
     font-style: italic;
     font-weight: bold;
+}
+
+.box-blue p {
+    margin-left: 0 !important;
 }
 
 .text-desc {
