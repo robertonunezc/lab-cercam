@@ -371,8 +371,8 @@ header {
 }
 
 .blue-light-box {
+    width: 50%;
     background: #60a7dc;
-    width: 33%;
     padding: 1rem;
     color: white;
 }
@@ -455,6 +455,13 @@ header {
 
 .box-blue p {
     margin-left: 0 !important;
+}
+
+.text-metodo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .text-desc {
