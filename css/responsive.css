@@ -291,4 +291,8 @@
      .escuadra-dcha {
          align-self: start;
      }
+
+     .box-blue {
+         height: 5vh;
+     }
  }
